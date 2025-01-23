@@ -1,0 +1,334 @@
+TORCH DEVICE cuda
+N CPUS 72
+CWD : /tmpdir/delatorr/dev/PCAM
+Metrics file: cnn_metrics_resnet_gray.csv
+WILL READ VAL DATA
+WILL READ TRAIN DATA
+TRAIN DATASET SIZE : 262144
+VAL DATASET SIZE : 32768
+normalization mean: [0.6044259071350098] | std: [0.25258591771125793]
+Model TRAIN begin ...
+Epoch [0/100], Training Loss: 0.9578, Training Accuracy: 0.5000
+Epoch [0/100], Validation Loss: 0.9409, Validation Accuracy: 0.4995
+Epoch [1/100], Training Loss: 0.4528, Training Accuracy: 0.7902
+Checkpoint saved at epoch 1 to DLmodels_resnet/checkpoint_gray_1.pth
+Epoch [1/100], Validation Loss: 0.4594, Validation Accuracy: 0.7878
+Epoch [2/100], Training Loss: 0.4037, Training Accuracy: 0.8207
+Checkpoint saved at epoch 2 to DLmodels_resnet/checkpoint_gray_2.pth
+Epoch [2/100], Validation Loss: 0.4620, Validation Accuracy: 0.7883
+Epoch [3/100], Training Loss: 0.3710, Training Accuracy: 0.8383
+Checkpoint saved at epoch 3 to DLmodels_resnet/checkpoint_gray_3.pth
+Epoch [3/100], Validation Loss: 0.4863, Validation Accuracy: 0.7881
+Epoch [4/100], Training Loss: 0.3488, Training Accuracy: 0.8502
+Checkpoint saved at epoch 4 to DLmodels_resnet/checkpoint_gray_4.pth
+Epoch [4/100], Validation Loss: 0.4798, Validation Accuracy: 0.7903
+Epoch [5/100], Training Loss: 0.3281, Training Accuracy: 0.8611
+Checkpoint saved at epoch 5 to DLmodels_resnet/checkpoint_gray_5.pth
+Epoch [5/100], Validation Loss: 0.5291, Validation Accuracy: 0.7744
+Epoch [6/100], Training Loss: 0.3106, Training Accuracy: 0.8703
+Checkpoint saved at epoch 6 to DLmodels_resnet/checkpoint_gray_6.pth
+Epoch [6/100], Validation Loss: 0.4838, Validation Accuracy: 0.7926
+Epoch [7/100], Training Loss: 0.2929, Training Accuracy: 0.8783
+Checkpoint saved at epoch 7 to DLmodels_resnet/checkpoint_gray_7.pth
+Epoch [7/100], Validation Loss: 0.6109, Validation Accuracy: 0.7760
+Epoch [8/100], Training Loss: 0.2794, Training Accuracy: 0.8851
+Checkpoint saved at epoch 8 to DLmodels_resnet/checkpoint_gray_8.pth
+Epoch [8/100], Validation Loss: 0.5367, Validation Accuracy: 0.7730
+Epoch [9/100], Training Loss: 0.2651, Training Accuracy: 0.8916
+Checkpoint saved at epoch 9 to DLmodels_resnet/checkpoint_gray_9.pth
+Epoch [9/100], Validation Loss: 0.5294, Validation Accuracy: 0.7882
+Epoch [10/100], Training Loss: 0.2508, Training Accuracy: 0.8991
+Checkpoint saved at epoch 10 to DLmodels_resnet/checkpoint_gray_10.pth
+Epoch [10/100], Validation Loss: 0.4843, Validation Accuracy: 0.8018
+Epoch [11/100], Training Loss: 0.2393, Training Accuracy: 0.9048
+Checkpoint saved at epoch 11 to DLmodels_resnet/checkpoint_gray_11.pth
+Epoch [11/100], Validation Loss: 0.6619, Validation Accuracy: 0.7693
+Epoch [12/100], Training Loss: 0.2254, Training Accuracy: 0.9114
+Checkpoint saved at epoch 12 to DLmodels_resnet/checkpoint_gray_12.pth
+Epoch [12/100], Validation Loss: 0.7227, Validation Accuracy: 0.7536
+Epoch [13/100], Training Loss: 0.2099, Training Accuracy: 0.9182
+Checkpoint saved at epoch 13 to DLmodels_resnet/checkpoint_gray_13.pth
+Epoch [13/100], Validation Loss: 0.5894, Validation Accuracy: 0.7776
+Epoch [14/100], Training Loss: 0.1999, Training Accuracy: 0.9224
+Checkpoint saved at epoch 14 to DLmodels_resnet/checkpoint_gray_14.pth
+Epoch [14/100], Validation Loss: 0.6458, Validation Accuracy: 0.7809
+Epoch [15/100], Training Loss: 0.1881, Training Accuracy: 0.9277
+Checkpoint saved at epoch 15 to DLmodels_resnet/checkpoint_gray_15.pth
+Epoch [15/100], Validation Loss: 0.6612, Validation Accuracy: 0.7865
+Epoch [16/100], Training Loss: 0.1751, Training Accuracy: 0.9333
+Checkpoint saved at epoch 16 to DLmodels_resnet/checkpoint_gray_16.pth
+Epoch [16/100], Validation Loss: 0.7000, Validation Accuracy: 0.7732
+Epoch [17/100], Training Loss: 0.1648, Training Accuracy: 0.9383
+Checkpoint saved at epoch 17 to DLmodels_resnet/checkpoint_gray_17.pth
+Epoch [17/100], Validation Loss: 0.6206, Validation Accuracy: 0.7881
+Epoch [18/100], Training Loss: 0.1537, Training Accuracy: 0.9423
+Checkpoint saved at epoch 18 to DLmodels_resnet/checkpoint_gray_18.pth
+Epoch [18/100], Validation Loss: 0.7104, Validation Accuracy: 0.7683
+Epoch [19/100], Training Loss: 0.1441, Training Accuracy: 0.9466
+Checkpoint saved at epoch 19 to DLmodels_resnet/checkpoint_gray_19.pth
+Epoch [19/100], Validation Loss: 0.7088, Validation Accuracy: 0.7654
+Epoch [20/100], Training Loss: 0.1368, Training Accuracy: 0.9497
+Checkpoint saved at epoch 20 to DLmodels_resnet/checkpoint_gray_20.pth
+Epoch [20/100], Validation Loss: 0.8614, Validation Accuracy: 0.7715
+Epoch [21/100], Training Loss: 0.1260, Training Accuracy: 0.9538
+Checkpoint saved at epoch 21 to DLmodels_resnet/checkpoint_gray_21.pth
+Epoch [21/100], Validation Loss: 0.7313, Validation Accuracy: 0.7805
+Epoch [22/100], Training Loss: 0.1182, Training Accuracy: 0.9573
+Checkpoint saved at epoch 22 to DLmodels_resnet/checkpoint_gray_22.pth
+Epoch [22/100], Validation Loss: 0.8528, Validation Accuracy: 0.7581
+Epoch [23/100], Training Loss: 0.1114, Training Accuracy: 0.9597
+Checkpoint saved at epoch 23 to DLmodels_resnet/checkpoint_gray_23.pth
+Epoch [23/100], Validation Loss: 0.8249, Validation Accuracy: 0.7582
+Epoch [24/100], Training Loss: 0.1047, Training Accuracy: 0.9616
+Checkpoint saved at epoch 24 to DLmodels_resnet/checkpoint_gray_24.pth
+Epoch [24/100], Validation Loss: 0.8352, Validation Accuracy: 0.7758
+Epoch [25/100], Training Loss: 0.0985, Training Accuracy: 0.9644
+Checkpoint saved at epoch 25 to DLmodels_resnet/checkpoint_gray_25.pth
+Epoch [25/100], Validation Loss: 1.1186, Validation Accuracy: 0.7480
+Epoch [26/100], Training Loss: 0.0941, Training Accuracy: 0.9661
+Checkpoint saved at epoch 26 to DLmodels_resnet/checkpoint_gray_26.pth
+Epoch [26/100], Validation Loss: 0.8614, Validation Accuracy: 0.7777
+Epoch [27/100], Training Loss: 0.0878, Training Accuracy: 0.9685
+Checkpoint saved at epoch 27 to DLmodels_resnet/checkpoint_gray_27.pth
+Epoch [27/100], Validation Loss: 0.9684, Validation Accuracy: 0.7597
+Epoch [28/100], Training Loss: 0.0823, Training Accuracy: 0.9703
+Checkpoint saved at epoch 28 to DLmodels_resnet/checkpoint_gray_28.pth
+Epoch [28/100], Validation Loss: 1.0207, Validation Accuracy: 0.7751
+Epoch [29/100], Training Loss: 0.0789, Training Accuracy: 0.9715
+Checkpoint saved at epoch 29 to DLmodels_resnet/checkpoint_gray_29.pth
+Epoch [29/100], Validation Loss: 0.9313, Validation Accuracy: 0.7659
+Epoch [30/100], Training Loss: 0.0760, Training Accuracy: 0.9726
+Checkpoint saved at epoch 30 to DLmodels_resnet/checkpoint_gray_30.pth
+Epoch [30/100], Validation Loss: 1.0031, Validation Accuracy: 0.7737
+Epoch [31/100], Training Loss: 0.0713, Training Accuracy: 0.9746
+Checkpoint saved at epoch 31 to DLmodels_resnet/checkpoint_gray_31.pth
+Epoch [31/100], Validation Loss: 1.0059, Validation Accuracy: 0.7725
+Epoch [32/100], Training Loss: 0.0673, Training Accuracy: 0.9759
+Checkpoint saved at epoch 32 to DLmodels_resnet/checkpoint_gray_32.pth
+Epoch [32/100], Validation Loss: 0.9928, Validation Accuracy: 0.7689
+Epoch [33/100], Training Loss: 0.0669, Training Accuracy: 0.9759
+Checkpoint saved at epoch 33 to DLmodels_resnet/checkpoint_gray_33.pth
+Epoch [33/100], Validation Loss: 1.0993, Validation Accuracy: 0.7681
+Epoch [34/100], Training Loss: 0.0645, Training Accuracy: 0.9771
+Checkpoint saved at epoch 34 to DLmodels_resnet/checkpoint_gray_34.pth
+Epoch [34/100], Validation Loss: 1.0672, Validation Accuracy: 0.7709
+Epoch [35/100], Training Loss: 0.0604, Training Accuracy: 0.9785
+Checkpoint saved at epoch 35 to DLmodels_resnet/checkpoint_gray_35.pth
+Epoch [35/100], Validation Loss: 1.3452, Validation Accuracy: 0.7455
+Epoch [36/100], Training Loss: 0.0583, Training Accuracy: 0.9794
+Checkpoint saved at epoch 36 to DLmodels_resnet/checkpoint_gray_36.pth
+Epoch [36/100], Validation Loss: 1.1828, Validation Accuracy: 0.7679
+Epoch [37/100], Training Loss: 0.0558, Training Accuracy: 0.9797
+Checkpoint saved at epoch 37 to DLmodels_resnet/checkpoint_gray_37.pth
+Epoch [37/100], Validation Loss: 1.2420, Validation Accuracy: 0.7649
+Epoch [38/100], Training Loss: 0.0554, Training Accuracy: 0.9803
+Checkpoint saved at epoch 38 to DLmodels_resnet/checkpoint_gray_38.pth
+Epoch [38/100], Validation Loss: 1.2533, Validation Accuracy: 0.7638
+Epoch [39/100], Training Loss: 0.0538, Training Accuracy: 0.9808
+Checkpoint saved at epoch 39 to DLmodels_resnet/checkpoint_gray_39.pth
+Epoch [39/100], Validation Loss: 1.1428, Validation Accuracy: 0.7702
+Epoch [40/100], Training Loss: 0.0513, Training Accuracy: 0.9817
+Checkpoint saved at epoch 40 to DLmodels_resnet/checkpoint_gray_40.pth
+Epoch [40/100], Validation Loss: 1.2811, Validation Accuracy: 0.7608
+Epoch [41/100], Training Loss: 0.0490, Training Accuracy: 0.9827
+Checkpoint saved at epoch 41 to DLmodels_resnet/checkpoint_gray_41.pth
+Epoch [41/100], Validation Loss: 1.3331, Validation Accuracy: 0.7605
+Epoch [42/100], Training Loss: 0.0474, Training Accuracy: 0.9830
+Checkpoint saved at epoch 42 to DLmodels_resnet/checkpoint_gray_42.pth
+Epoch [42/100], Validation Loss: 1.2112, Validation Accuracy: 0.7694
+Epoch [43/100], Training Loss: 0.0478, Training Accuracy: 0.9827
+Checkpoint saved at epoch 43 to DLmodels_resnet/checkpoint_gray_43.pth
+Epoch [43/100], Validation Loss: 1.4531, Validation Accuracy: 0.7560
+Epoch [44/100], Training Loss: 0.0454, Training Accuracy: 0.9840
+Checkpoint saved at epoch 44 to DLmodels_resnet/checkpoint_gray_44.pth
+Epoch [44/100], Validation Loss: 1.3835, Validation Accuracy: 0.7523
+Epoch [45/100], Training Loss: 0.0459, Training Accuracy: 0.9835
+Checkpoint saved at epoch 45 to DLmodels_resnet/checkpoint_gray_45.pth
+Epoch [45/100], Validation Loss: 1.1499, Validation Accuracy: 0.7667
+Epoch [46/100], Training Loss: 0.0442, Training Accuracy: 0.9844
+Checkpoint saved at epoch 46 to DLmodels_resnet/checkpoint_gray_46.pth
+Epoch [46/100], Validation Loss: 1.3628, Validation Accuracy: 0.7551
+Epoch [47/100], Training Loss: 0.0435, Training Accuracy: 0.9844
+Checkpoint saved at epoch 47 to DLmodels_resnet/checkpoint_gray_47.pth
+Epoch [47/100], Validation Loss: 1.3030, Validation Accuracy: 0.7699
+Epoch [48/100], Training Loss: 0.0423, Training Accuracy: 0.9848
+Checkpoint saved at epoch 48 to DLmodels_resnet/checkpoint_gray_48.pth
+Epoch [48/100], Validation Loss: 1.3452, Validation Accuracy: 0.7704
+Epoch [49/100], Training Loss: 0.0409, Training Accuracy: 0.9854
+Checkpoint saved at epoch 49 to DLmodels_resnet/checkpoint_gray_49.pth
+Epoch [49/100], Validation Loss: 1.2677, Validation Accuracy: 0.7538
+Epoch [50/100], Training Loss: 0.0403, Training Accuracy: 0.9855
+Checkpoint saved at epoch 50 to DLmodels_resnet/checkpoint_gray_50.pth
+Epoch [50/100], Validation Loss: 1.6069, Validation Accuracy: 0.7447
+Epoch [51/100], Training Loss: 0.0398, Training Accuracy: 0.9857
+Checkpoint saved at epoch 51 to DLmodels_resnet/checkpoint_gray_51.pth
+Epoch [51/100], Validation Loss: 1.1768, Validation Accuracy: 0.7714
+Epoch [52/100], Training Loss: 0.0384, Training Accuracy: 0.9863
+Checkpoint saved at epoch 52 to DLmodels_resnet/checkpoint_gray_52.pth
+Epoch [52/100], Validation Loss: 1.4422, Validation Accuracy: 0.7489
+Epoch [53/100], Training Loss: 0.0383, Training Accuracy: 0.9865
+Checkpoint saved at epoch 53 to DLmodels_resnet/checkpoint_gray_53.pth
+Epoch [53/100], Validation Loss: 1.2826, Validation Accuracy: 0.7636
+Epoch [54/100], Training Loss: 0.0381, Training Accuracy: 0.9862
+Checkpoint saved at epoch 54 to DLmodels_resnet/checkpoint_gray_54.pth
+Epoch [54/100], Validation Loss: 1.3974, Validation Accuracy: 0.7617
+Epoch [55/100], Training Loss: 0.0366, Training Accuracy: 0.9871
+Checkpoint saved at epoch 55 to DLmodels_resnet/checkpoint_gray_55.pth
+Epoch [55/100], Validation Loss: 1.2050, Validation Accuracy: 0.7693
+Epoch [56/100], Training Loss: 0.0360, Training Accuracy: 0.9871
+Checkpoint saved at epoch 56 to DLmodels_resnet/checkpoint_gray_56.pth
+Epoch [56/100], Validation Loss: 1.4481, Validation Accuracy: 0.7556
+Epoch [57/100], Training Loss: 0.0359, Training Accuracy: 0.9871
+Checkpoint saved at epoch 57 to DLmodels_resnet/checkpoint_gray_57.pth
+Epoch [57/100], Validation Loss: 1.2432, Validation Accuracy: 0.7695
+Epoch [58/100], Training Loss: 0.0344, Training Accuracy: 0.9876
+Checkpoint saved at epoch 58 to DLmodels_resnet/checkpoint_gray_58.pth
+Epoch [58/100], Validation Loss: 1.3194, Validation Accuracy: 0.7722
+Epoch [59/100], Training Loss: 0.0344, Training Accuracy: 0.9877
+Checkpoint saved at epoch 59 to DLmodels_resnet/checkpoint_gray_59.pth
+Epoch [59/100], Validation Loss: 1.2596, Validation Accuracy: 0.7740
+Epoch [60/100], Training Loss: 0.0352, Training Accuracy: 0.9877
+Checkpoint saved at epoch 60 to DLmodels_resnet/checkpoint_gray_60.pth
+Epoch [60/100], Validation Loss: 1.2893, Validation Accuracy: 0.7793
+Epoch [61/100], Training Loss: 0.0337, Training Accuracy: 0.9880
+Checkpoint saved at epoch 61 to DLmodels_resnet/checkpoint_gray_61.pth
+Epoch [61/100], Validation Loss: 1.6961, Validation Accuracy: 0.7391
+Epoch [62/100], Training Loss: 0.0328, Training Accuracy: 0.9884
+Checkpoint saved at epoch 62 to DLmodels_resnet/checkpoint_gray_62.pth
+Epoch [62/100], Validation Loss: 1.3171, Validation Accuracy: 0.7599
+Epoch [63/100], Training Loss: 0.0333, Training Accuracy: 0.9880
+Checkpoint saved at epoch 63 to DLmodels_resnet/checkpoint_gray_63.pth
+Epoch [63/100], Validation Loss: 1.4603, Validation Accuracy: 0.7640
+Epoch [64/100], Training Loss: 0.0318, Training Accuracy: 0.9888
+Checkpoint saved at epoch 64 to DLmodels_resnet/checkpoint_gray_64.pth
+Epoch [64/100], Validation Loss: 1.3101, Validation Accuracy: 0.7837
+Epoch [65/100], Training Loss: 0.0332, Training Accuracy: 0.9883
+Checkpoint saved at epoch 65 to DLmodels_resnet/checkpoint_gray_65.pth
+Epoch [65/100], Validation Loss: 1.1681, Validation Accuracy: 0.7819
+Epoch [66/100], Training Loss: 0.0315, Training Accuracy: 0.9889
+Checkpoint saved at epoch 66 to DLmodels_resnet/checkpoint_gray_66.pth
+Epoch [66/100], Validation Loss: 1.2469, Validation Accuracy: 0.7630
+Epoch [67/100], Training Loss: 0.0304, Training Accuracy: 0.9892
+Checkpoint saved at epoch 67 to DLmodels_resnet/checkpoint_gray_67.pth
+Epoch [67/100], Validation Loss: 1.1924, Validation Accuracy: 0.7873
+Epoch [68/100], Training Loss: 0.0307, Training Accuracy: 0.9890
+Checkpoint saved at epoch 68 to DLmodels_resnet/checkpoint_gray_68.pth
+Epoch [68/100], Validation Loss: 1.3688, Validation Accuracy: 0.7626
+Epoch [69/100], Training Loss: 0.0289, Training Accuracy: 0.9897
+Checkpoint saved at epoch 69 to DLmodels_resnet/checkpoint_gray_69.pth
+Epoch [69/100], Validation Loss: 1.3282, Validation Accuracy: 0.7758
+Epoch [70/100], Training Loss: 0.0295, Training Accuracy: 0.9895
+Checkpoint saved at epoch 70 to DLmodels_resnet/checkpoint_gray_70.pth
+Epoch [70/100], Validation Loss: 1.5443, Validation Accuracy: 0.7605
+Epoch [71/100], Training Loss: 0.0296, Training Accuracy: 0.9895
+Checkpoint saved at epoch 71 to DLmodels_resnet/checkpoint_gray_71.pth
+Epoch [71/100], Validation Loss: 1.3689, Validation Accuracy: 0.7727
+Epoch [72/100], Training Loss: 0.0292, Training Accuracy: 0.9897
+Checkpoint saved at epoch 72 to DLmodels_resnet/checkpoint_gray_72.pth
+Epoch [72/100], Validation Loss: 1.5990, Validation Accuracy: 0.7572
+Epoch [73/100], Training Loss: 0.0305, Training Accuracy: 0.9891
+Checkpoint saved at epoch 73 to DLmodels_resnet/checkpoint_gray_73.pth
+Epoch [73/100], Validation Loss: 1.3938, Validation Accuracy: 0.7702
+Epoch [74/100], Training Loss: 0.0278, Training Accuracy: 0.9902
+Checkpoint saved at epoch 74 to DLmodels_resnet/checkpoint_gray_74.pth
+Epoch [74/100], Validation Loss: 1.3725, Validation Accuracy: 0.7751
+Epoch [75/100], Training Loss: 0.0276, Training Accuracy: 0.9903
+Checkpoint saved at epoch 75 to DLmodels_resnet/checkpoint_gray_75.pth
+Epoch [75/100], Validation Loss: 1.4239, Validation Accuracy: 0.7603
+Epoch [76/100], Training Loss: 0.0284, Training Accuracy: 0.9900
+Checkpoint saved at epoch 76 to DLmodels_resnet/checkpoint_gray_76.pth
+Epoch [76/100], Validation Loss: 1.2109, Validation Accuracy: 0.7776
+Epoch [77/100], Training Loss: 0.0271, Training Accuracy: 0.9903
+Checkpoint saved at epoch 77 to DLmodels_resnet/checkpoint_gray_77.pth
+Epoch [77/100], Validation Loss: 1.4456, Validation Accuracy: 0.7566
+Epoch [78/100], Training Loss: 0.0277, Training Accuracy: 0.9902
+Checkpoint saved at epoch 78 to DLmodels_resnet/checkpoint_gray_78.pth
+Epoch [78/100], Validation Loss: 1.4151, Validation Accuracy: 0.7776
+Epoch [79/100], Training Loss: 0.0265, Training Accuracy: 0.9905
+Checkpoint saved at epoch 79 to DLmodels_resnet/checkpoint_gray_79.pth
+Epoch [79/100], Validation Loss: 1.4245, Validation Accuracy: 0.7688
+Epoch [80/100], Training Loss: 0.0262, Training Accuracy: 0.9907
+Checkpoint saved at epoch 80 to DLmodels_resnet/checkpoint_gray_80.pth
+Epoch [80/100], Validation Loss: 1.4688, Validation Accuracy: 0.7625
+Epoch [81/100], Training Loss: 0.0259, Training Accuracy: 0.9908
+Checkpoint saved at epoch 81 to DLmodels_resnet/checkpoint_gray_81.pth
+Epoch [81/100], Validation Loss: 1.8749, Validation Accuracy: 0.7446
+Epoch [82/100], Training Loss: 0.0256, Training Accuracy: 0.9909
+Checkpoint saved at epoch 82 to DLmodels_resnet/checkpoint_gray_82.pth
+Epoch [82/100], Validation Loss: 1.4704, Validation Accuracy: 0.7549
+Epoch [83/100], Training Loss: 0.0265, Training Accuracy: 0.9905
+Checkpoint saved at epoch 83 to DLmodels_resnet/checkpoint_gray_83.pth
+Epoch [83/100], Validation Loss: 1.4273, Validation Accuracy: 0.7538
+Epoch [84/100], Training Loss: 0.0255, Training Accuracy: 0.9911
+Checkpoint saved at epoch 84 to DLmodels_resnet/checkpoint_gray_84.pth
+Epoch [84/100], Validation Loss: 1.5303, Validation Accuracy: 0.7624
+Epoch [85/100], Training Loss: 0.0261, Training Accuracy: 0.9907
+Checkpoint saved at epoch 85 to DLmodels_resnet/checkpoint_gray_85.pth
+Epoch [85/100], Validation Loss: 1.6425, Validation Accuracy: 0.7561
+Epoch [86/100], Training Loss: 0.0246, Training Accuracy: 0.9913
+Checkpoint saved at epoch 86 to DLmodels_resnet/checkpoint_gray_86.pth
+Epoch [86/100], Validation Loss: 1.6810, Validation Accuracy: 0.7588
+Epoch [87/100], Training Loss: 0.0249, Training Accuracy: 0.9910
+Checkpoint saved at epoch 87 to DLmodels_resnet/checkpoint_gray_87.pth
+Epoch [87/100], Validation Loss: 1.4649, Validation Accuracy: 0.7698
+Epoch [88/100], Training Loss: 0.0256, Training Accuracy: 0.9909
+Checkpoint saved at epoch 88 to DLmodels_resnet/checkpoint_gray_88.pth
+Epoch [88/100], Validation Loss: 1.5447, Validation Accuracy: 0.7635
+Epoch [89/100], Training Loss: 0.0243, Training Accuracy: 0.9916
+Checkpoint saved at epoch 89 to DLmodels_resnet/checkpoint_gray_89.pth
+Epoch [89/100], Validation Loss: 1.3215, Validation Accuracy: 0.7636
+Epoch [90/100], Training Loss: 0.0238, Training Accuracy: 0.9916
+Checkpoint saved at epoch 90 to DLmodels_resnet/checkpoint_gray_90.pth
+Epoch [90/100], Validation Loss: 1.5855, Validation Accuracy: 0.7610
+Epoch [91/100], Training Loss: 0.0239, Training Accuracy: 0.9915
+Checkpoint saved at epoch 91 to DLmodels_resnet/checkpoint_gray_91.pth
+Epoch [91/100], Validation Loss: 1.3897, Validation Accuracy: 0.7791
+Epoch [92/100], Training Loss: 0.0237, Training Accuracy: 0.9917
+Checkpoint saved at epoch 92 to DLmodels_resnet/checkpoint_gray_92.pth
+Epoch [92/100], Validation Loss: 1.5582, Validation Accuracy: 0.7657
+Epoch [93/100], Training Loss: 0.0235, Training Accuracy: 0.9918
+Checkpoint saved at epoch 93 to DLmodels_resnet/checkpoint_gray_93.pth
+Epoch [93/100], Validation Loss: 1.4735, Validation Accuracy: 0.7612
+Epoch [94/100], Training Loss: 0.0235, Training Accuracy: 0.9917
+Checkpoint saved at epoch 94 to DLmodels_resnet/checkpoint_gray_94.pth
+Epoch [94/100], Validation Loss: 1.7168, Validation Accuracy: 0.7526
+Epoch [95/100], Training Loss: 0.0224, Training Accuracy: 0.9923
+Checkpoint saved at epoch 95 to DLmodels_resnet/checkpoint_gray_95.pth
+Epoch [95/100], Validation Loss: 1.4718, Validation Accuracy: 0.7644
+Epoch [96/100], Training Loss: 0.0239, Training Accuracy: 0.9917
+Checkpoint saved at epoch 96 to DLmodels_resnet/checkpoint_gray_96.pth
+Epoch [96/100], Validation Loss: 1.3238, Validation Accuracy: 0.7737
+Epoch [97/100], Training Loss: 0.0226, Training Accuracy: 0.9920
+Checkpoint saved at epoch 97 to DLmodels_resnet/checkpoint_gray_97.pth
+Epoch [97/100], Validation Loss: 1.7157, Validation Accuracy: 0.7612
+Epoch [98/100], Training Loss: 0.0218, Training Accuracy: 0.9922
+Checkpoint saved at epoch 98 to DLmodels_resnet/checkpoint_gray_98.pth
+Epoch [98/100], Validation Loss: 1.3793, Validation Accuracy: 0.7720
+Epoch [99/100], Training Loss: 0.0225, Training Accuracy: 0.9922
+Checkpoint saved at epoch 99 to DLmodels_resnet/checkpoint_gray_99.pth
+Epoch [99/100], Validation Loss: 1.4743, Validation Accuracy: 0.7692
+Epoch [100/100], Training Loss: 0.0214, Training Accuracy: 0.9925
+Checkpoint saved at epoch 100 to DLmodels_resnet/checkpoint_gray_100.pth
+Epoch [100/100], Validation Loss: 1.4874, Validation Accuracy: 0.7665
+Training complete.
+Model TRAIN done
+Execution time: 17132.76 seconds
+     epoch      loss  accuracy  val_loss  val_accuracy
+0        0  0.957839  0.500000  0.940853      0.499542
+1        1  0.452808  0.790165  0.459405      0.787811
+2        2  0.403700  0.820702  0.461966      0.788269
+3        3  0.370957  0.838268  0.486346      0.788055
+4        4  0.348806  0.850178  0.479768      0.790344
+..     ...       ...       ...       ...           ...
+96      96  0.023939  0.991657  1.323800      0.773682
+97      97  0.022551  0.991989  1.715741      0.761200
+98      98  0.021847  0.992249  1.379309      0.771973
+99      99  0.022543  0.992207  1.474289      0.769196
+100    100  0.021434  0.992516  1.487416      0.766479
+
+[101 rows x 5 columns]
+MAX acc :  10
+Checkpoint to read  DLmodels_resnet/checkpoint_gray_10.pth
+Weights were copied
+WILL READ TEST DATA
+Test Loss: 0.5294, Test Accuracy: 0.77127%

@@ -1,0 +1,10 @@
+Intel(R) MPI Library  (2018.2.199) unloaded
+Intel Parallel Studio XE 2018_2 unloaded
+
+To start with conda environments :
+  * List available environments   : "conda env list"
+  * Use an available environment  : "conda activate <the-wanted-env>"
+  * Create your own environment   : "conda create -n <my-env>" and to use it "conda activate <my-env>"
+  * More information              : https://www.calmip.univ-toulouse.fr/conda 
+/tmpdir/delatorr/dev/PCAM/CNN_training_rgbhsv.py:239: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(best_checkpoint)

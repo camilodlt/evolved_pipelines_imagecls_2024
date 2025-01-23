@@ -1,0 +1,138 @@
+---
+title: "Supplementary Materials for Evolved and Transparent Pipelines for Biomedical Image Classification"
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+---
+
+
+# More Irace details 
+
+## Sampling frequency for all parameters
+![Distribution of sampling frequency for each parameter over the racing procedure.]("sup/sampling_freq.png"){width=500}
+
+## Sampling frequency for $\rho$
+![Sampling frequency across Irace iterations for $\rho$ : Accuracy weight in loss]("sup/sampling_freq_acc_w.png"){width=500}
+
+## Sampling frequency for $\mu$
+![Sampling frequency across Irace iterations for $\mu$ : Mutation rate]("sup/sampling_freq_mutation_rate.png"){width=500}
+
+## Sampling frequency for $e$
+![Sampling frequency across Irace iterations for $e$ : Elite pop. size]("sup/sampling_freq_n_elite.png"){width=500}
+
+## Sampling frequency for $news$
+![Sampling frequency across Irace iterations for $news$ : # of offspring ]("sup/sampling_freq_n_new.png"){width=500}
+
+## Sampling frequency for $n$
+![Sampling frequency across Irace iterations for $n$ : # of nodes]("sup/sampling_freq_n_nodes.png"){width=500}
+
+## Sampling frequency for $reps$
+![Sampling frequency across Irace iterations for $reps$ : # of sampling repetitions per iteration]("sup/sampling_freq_n_repetitions.png"){width=500}
+
+## Sampling frequency for $bs$
+![Sampling frequency across Irace iterations for $bs$ : # of images per sample]("sup/sampling_freq_n_samples.png"){width=500}
+
+## Sampling frequency for $ts$
+![Sampling frequency across Irace iterations for $ts$ : size of the tournament]("sup/sampling_freq_toursize.png"){width=500}
+
+# Program Interpretability
+
+Below you will find several examples of malignant and benign patches as well as the predictions made by the top 3 models based on validation accuracy across the 100 MAGE runs.
+
+The model interpreted in the paper correspond to the "Third best model". 
+
+## Malignant Example 1 
+![Example 1 of a malignant patch]("sup/interpretability/malignant/chosen_malignant_750.png")
+
+### Best model 
+
+![Prediction made by the Best model (TP)]("sup/interpretability/malignant/model1_750.png")
+
+### Second best model 
+
+![Prediction made by the second best model (FN)]("sup/interpretability/malignant/model2_750.png")
+
+### Third best model 
+
+![Prediction made by the third best model (TP)]("sup/interpretability/malignant/model3_750.png")
+
+## Malignant Example 2 
+
+![Example 2 of a malignant patch]("sup/interpretability/malignant/chosen_malignant_45.png")
+
+### Best model 
+
+![Prediction made by the best model (TP)]("sup/interpretability/malignant/model1_45.png")
+
+### Second best model 
+
+![Prediction made by the second best model (TP)]("sup/interpretability/malignant/model2_45.png")
+
+### Third best model 
+
+![Prediction made by the third best model (TP)]("sup/interpretability/malignant/model3_45.png")
+
+
+## Malignant Example 3 
+
+![Example 3 of a malignant patch]("sup/interpretability/malignant/chosen_malignant_909.png")
+
+### Best model 
+![Prediction made by the best model (TP)]("sup/interpretability/malignant/model1_909.png")
+
+### Second best model 
+![Prediction made by the second best model (TP)]("sup/interpretability/malignant/model2_909.png")
+
+### Third best model 
+![Prediction made by the third best model (TP)]("sup/interpretability/malignant/model3_909.png")
+
+
+## Benign Example 1 
+![Example 1 of a benign patch]("sup/interpretability/benign/chosen_benign_602.png")
+
+### Best model 
+![Prediction made by the best model (TN)]("sup/interpretability/benign/model1_602.png")
+
+### Second best model 
+
+![Prediction made by the second best model (TN)]("sup/interpretability/benign/model2_602.png")
+
+### Third best model 
+
+![Prediction made by the third best model (TN)]("sup/interpretability/benign/model3_602.png")
+
+
+
+## Benign Example 2 
+
+![Example 2 of a benign patch]("sup/interpretability/benign/chosen_benign_865.png")
+
+### Best model 
+![Prediction made by the best model (TN)]("sup/interpretability/benign/model1_865.png")
+
+### Second best model 
+![Prediction made by the second best model (TN)]("sup/interpretability/benign/model2_865.png")
+
+### Third best model 
+
+This is an example of the overflowing by "fastscanning", explained in the paper, because of previous numerous nuclei edges detected. Hence, the support for malignancy is lower than the support for benign. 
+
+![Prediction made by the third best model (TN)]("sup/interpretability/benign/model3_865.png")
+
+
+## Benign Example 3 
+
+![Example 3 of a benign patch]("sup/interpretability/benign/chosen_benign_394.png")
+
+In this case all models produced wrong predictions. 
+
+### Best model 
+![Prediction made by the best model (FP)]("sup/interpretability/benign/model1_394.png")
+
+### Second best model 
+![Prediction made by the second best model (FP)]("sup/interpretability/benign/model2_394.png")
+
+### Third best model 
+![Prediction made by the third best model (FP)]("sup/interpretability/benign/model3_394.png")
